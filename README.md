@@ -22,3 +22,11 @@ Carrot2 Document Clustering Server features include:
 * **Quick start screen.**  A simple quick start screen will let you make your first DCS request straight from your browser.
 
 ![Carrot2 DCS screenshot](http://download.carrot2.org/head/manual/img/dcs.png)
+
+**How to run it**
+
+```
+docker run -it --rm zmarty/carrot2-dcs
+```
+
+If you are new to Docker, please note that due to the rm command line argument above all your file changes within the container will be lost.
